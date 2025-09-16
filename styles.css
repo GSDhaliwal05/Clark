@@ -12,10 +12,10 @@ a {
     color: #000;
 }
 
-/* Header */
+/* Header / Navbar */
 header {
-    background-color: #fff; /* White header */
-    color: #000;            /* Black text */
+    background-color: #000; /* Black navbar */
+    color: #fff;            /* White text */
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
@@ -25,7 +25,7 @@ header {
 header nav a {
     margin-left: 20px;
     font-weight: bold;
-    color: #000;           /* Ensure links are black */
+    color: #fff;           /* White links on black navbar */
 }
 
 /* Main content */
